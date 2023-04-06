@@ -224,13 +224,12 @@ img {
 .section-team {
     background-color: var(--primary-bg-color);
 }
+.team-list {
+        gap: 24px;
+}
 .team-item {
-    flex-basis: calc(100% / 4);
     margin-bottom: 120px;
     background-color: var(--white-bg-color);
-}
-.team-list > .team-item:not(:last-child) {
-    margin-right: 24px;
 }
 .team-title {
     padding-top: 120px;
@@ -350,12 +349,9 @@ img {
 
     display: flex;
     flex-wrap: wrap;
-    margin-left: calc(-1 * var(--works-list-gape));
-    margin-top: calc(-1 * var(--works-list-gape));
+    gap: 48px 24px;
 }
+
 .works-item {
-    flex-basis: calc(100% / 3 - var(--works-list-gape));
-    margin-left: var(--works-list-gape);
-    margin-top: var(--works-list-gape);
     border-bottom: 1px solid #E7E9FC;
 }
