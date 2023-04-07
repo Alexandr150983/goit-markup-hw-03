@@ -317,6 +317,7 @@ img {
     display: flex;
     justify-content: center;
     margin-bottom: 72px;
+    gap: 24px;
 }
 .works-btn {
     padding: 12px 24px;
