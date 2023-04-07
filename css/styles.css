@@ -97,12 +97,15 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.header-logo {
+.logo-header {
     margin-right: 76px;
+}
+.header-logo {
     color: var(--title-text-color);
 }
 /* Навігація */
 .header-list {
+    display: flex;
     gap: 40px;
 }
 .header-list .header-item:not(:last-child) {
@@ -131,6 +134,7 @@ img {
     letter-spacing: 0.02em;
 }
 .contacts-list {
+    display: flex;
     gap: 40px;
 }
 .header-link:hover,
@@ -201,6 +205,7 @@ img {
     padding: 120px 0;
 }
 .about-list {
+    display: flex;
     gap: 24px;
 }
 .about-title {
@@ -220,7 +225,7 @@ img {
 .section-work {
     padding-bottom: 120px;
 }
-.list {
+.work-list {
     display: flex;
     gap: 24px;
 }
@@ -245,6 +250,7 @@ img {
     background-color: var(--primary-bg-color);
 }
 .team-list {
+    display: flex;
         gap: 24px;
 }
 .team-item {
@@ -263,6 +269,7 @@ img {
     text-transform: capitalize;
 }
 .title {
+    margin-bottom: 8px;
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 20px;
@@ -307,6 +314,7 @@ img {
     padding: 96px 120px;
 }
 .filters-list {
+    display: flex;
     justify-content: center;
     margin-bottom: 72px;
 }
@@ -354,6 +362,8 @@ img {
     cursor: pointer;
 }
 .works-list {
+    display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
 }
+
