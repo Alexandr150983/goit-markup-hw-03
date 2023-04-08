@@ -16,9 +16,7 @@
    --additional-text-color: #F4F4FD;
    --primari-border-btn: #E7E9FC;
 }
-.body {
-    margin: 0;
-
+body {
     background-color: var(--white-bg-color);
 
     color: var(--primary-text-color);
@@ -79,14 +77,10 @@ img {
 /* Лого */
 .header-container {
     display: flex;
-    justify-content: center;
-    align-items: center;   
 }
 .nav {
     display: flex;
     align-items: center;
-    margin-top: 24px;
-    margin-bottom: 24px;
 }
 .logo {
     color: var(--logo-text-color);
@@ -108,12 +102,6 @@ img {
     display: flex;
     gap: 40px;
 }
-.header-list .header-item:not(:last-child) {
-    margin-right: 40px;
-}
-.contacts-item:not(:last-child){
-    margin-right: 40px;
-}
 .header-link {
     padding: 24px 0;
     color: var(--title-text-color);
@@ -123,8 +111,8 @@ img {
 /* Контакти */
 .contacts {
     display: flex;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     margin-left: auto;
     font-style: normal;
 }
@@ -159,7 +147,7 @@ img {
 }
 .hero-title {
     max-width: 496px;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
     margin-left: auto;
     margin-right: auto;
 
@@ -229,6 +217,9 @@ img {
     display: flex;
     gap: 24px;
 }
+.list-item {
+    width: calc((100% - 48px) / 3);
+}
 .work-title {
     margin-bottom: 72px;
 
@@ -242,8 +233,6 @@ img {
 /* Наша команда */
 .title-team-photo {
     padding: 32px 16px;
-    border-radius: 0px 0px 4px 4px;
-
 }
 .section-team {
     padding: 120px 0;
@@ -251,14 +240,14 @@ img {
 }
 .team-list {
     display: flex;
-        gap: 24px;
+    gap: 24px;
 }
 .team-item {
-    margin-bottom: 120px;
+    width: calc((100% - 72px) / 4);
     background-color: var(--white-bg-color);
+    border-radius: 0px 0px 4px 4px;
 }
 .team-title {
-    padding-top: 120px;
     margin-bottom: 72px;
 
     color: var(--title-text-color);
@@ -311,7 +300,8 @@ img {
 */
 /* Наші роботи */
 .section-works {
-    padding: 96px 120px;
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 .filters-list {
     display: flex;
@@ -335,6 +325,9 @@ img {
     
     border: 1px solid var(--primari-border-btn);
     border-radius: 4px;
+}
+.works-item {
+    width: calc((100% - 48px) / 3);
 }
 .works-title-text {
     padding: 32px 16px;
@@ -367,4 +360,3 @@ img {
     flex-wrap: wrap;
     gap: 48px 24px;
 }
-
