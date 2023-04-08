@@ -77,6 +77,7 @@ img {
 /* Лого */
 .header-container {
     display: flex;
+    align-items: center;
 }
 .nav {
     display: flex;
@@ -233,6 +234,7 @@ img {
 /* Наша команда */
 .title-team-photo {
     padding: 32px 16px;
+    border-radius: 0px 0px 4px 4px;
 }
 .section-team {
     padding: 120px 0;
@@ -300,8 +302,7 @@ img {
 */
 /* Наші роботи */
 .section-works {
-    padding-top: 96px;
-    padding-bottom: 120px;
+    padding: 96px 120px;
 }
 .filters-list {
     display: flex;
