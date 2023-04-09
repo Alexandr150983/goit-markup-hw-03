@@ -302,7 +302,8 @@ img {
 */
 /* Наші роботи */
 .section-works {
-    padding: 96px 120px;
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 .filters-list {
     display: flex;
